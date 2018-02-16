@@ -1,15 +1,16 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
     <h1>
-        Welcome to {{ title }}!
+        Générateur de signature Wenation / Wenation signature generator
     </h1>
-
-    <div>
-        <button><h2>Wemanity</h2></button>
-    </div>
-    <div>
-        <button><h2>Wecanopy</h2></button>
-    </div>
-    <div>
-        <button><h2>BareFoot</h2></button>
-    </div>
+    <mat-tab-group>
+        <mat-tab label="Wemanity">
+            <wemanity-app></wemanity-app>
+        </mat-tab>
+        <mat-tab label="Wecanopy">
+            <wecanopy-app></wecanopy-app>
+        </mat-tab>
+        <mat-tab label="BareFoot">
+            <barefoot-app></barefoot-app>
+        </mat-tab>
+    </mat-tab-group>
