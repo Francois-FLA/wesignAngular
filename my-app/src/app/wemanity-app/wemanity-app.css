@@ -228,3 +228,11 @@ textarea {
     font-size: 18px;
     text-decoration: underline;
 }
+
+.block1 {
+    background-color: blue;
+}
+
+.block2 {
+    background-color: red;
+}

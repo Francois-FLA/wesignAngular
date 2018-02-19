@@ -1,126 +1,135 @@
-<div class="row">
-    <div class="col-lg-6">
-        <div class="panel panel-default">
+<button class="btn btn-primary">Salut lol</button>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-lg-6 block1">
 
             <div class="panel-body">
-                <form name="myForm">
-                    <table>
-                        <tr>
-                            <td>Name</td>
-                            <td>
-                                <input id="nameL" type="text" name="name" required placeholder="Prénom NOM / Surname LAST NAME">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Job Title</td>
-                            <td>
-                                <input type="text" name="job" placeholder="Poste / Job title" required></td>
-                        </tr>
-                        <tr>
-                            <td>Email</td>
-                            <td>
-                                <input id="emailL" type="email" name="email-wemanity" placeholder="xxxx@wemanity.com" required>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Mobile phone 1
-                            </td>
-                            <td>
-                                <input type="tel" class="phone-input" name="mobilephone1" placeholder="06 85 75 61 11" required>
-                                <select id="phone-loc-1" class="form-control">
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td>
+                            <input id="nameL" type="text" name="name" required placeholder="Prénom NOM / Surname LAST NAME">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Job Title</td>
+                        <td>
+                            <input type="text" name="job" placeholder="Poste / Job title" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>
+                            <input id="emailL" type="email" name="email-wemanity" placeholder="xxxx@wemanity.com" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Mobile phone 1
+                        </td>
+                        <td>
+                            <input type="tel" class="phone-input" name="mobilephone1" placeholder="06 85 75 61 11" required>
+                            <select id="phone-loc-1" class="form-control">
                                         <option value="fr" selected>France</option>
                                         <option value="be">Belgique / Belgium</option>
                                         <option value="nl">Pays-Bas / Netherlands</option>
                                         <option value="uk">Royaume-Uni / United Kingdom</option>
                                         <option value="ch">Suisse / Switzerland</option>
                                     </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Mobile phone 2</td>
-                            <td>
-                                <input type="tel" class="phone-input" name="mobilephone2" placeholder="(optional)" />
-                                <select id="phone-loc-2" class="form-control">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mobile phone 2</td>
+                        <td>
+                            <input type="tel" class="phone-input" name="mobilephone2" placeholder="(optional)" />
+                            <select id="phone-loc-2" class="form-control">
                                         <option value="fr" selected>France</option>
                                         <option value="be">Belgique / Belgium</option>
                                         <option value="nl">Pays-Bas / Netherlands</option>
                                         <option value="uk">Royaume-Uni / United Kingdom</option>
                                         <option value="ch">Suisse / Switzerland</option>
                                 </select>
-                            </td>
-                        </tr>
+                        </td>
+                    </tr>
 
 
-                        <!-- sélection de logo -->
-                        <tr>
-                            <td class="multiple-choice">
-                                Logo
-                            </td>
-                            <td>
-                                <label><input  checked="checked" type="radio" name="logo-selected" value="http://www.wemanity.com/sig/Wgreen.png" /><img width="100" src="http://www.wemanity.com/sig/Wgreen.png" alt="Wemanity green logo"></label>
-                                <label><input type="radio" name="logo-selected" value="http://www.wemanity.com/sig/Wyellow.png" /><img width="100" src="http://www.wemanity.com/sig/Wyellow.png" alt="Wemanity yellow logo"></label>
-                                <label><input type="radio" name="logo-selected" value="http://www.wemanity.com/sig/Wpink.png" /><img width="100" src="http://www.wemanity.com/sig/Wpink.png" alt="Wemanity pink logo"></label>
-                                <label><input type="radio" name="logo-selected" value="http://www.wemanity.com/sig/Wrainbow.png" /><img width="100" src="http://www.wemanity.com/sig/Wrainbow.png" alt="Wemanity rainbow logo"></label>
-                                <label><input type="radio" name="logo-selected" value="http://www.wemanity.com/sig/Woriginal.png" /><img width="100" src="http://www.wemanity.com/sig/Woriginal.png" alt="Wemanity original logo"></label>
-                                <label><input type="radio" name="logo-selected" value="http://www.wemanity.com/sig/W-gradientcolors.png" /><img width="100" src="http://www.wemanity.com/sig/W-gradientcolors.png" alt="Wemanity gradient colors logo"></label>
-                                <label><input type="radio" name="logo-selected" value="http://wemanity.com/sig/Wemanity%20logo.png" /><img width="100" src="http://wemanity.com/sig/Wemanity%20logo.png" alt="Wemanity original logo"></label>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="multiple-choice">
-                                Géographie / Location
-                                <br/> (multiple OK)
-                            </td>
-                            <td>
-                                <p class="paysTitre">Wemanity / Wecanopy</p>
-                                <div class="checkbox">
-                                    <label><input type="checkbox" id="fr" value="">France</label>
-                                </div>
-                                <div class="checkbox">
-                                    <label><input type="checkbox" id="be" value="">Belgique / Belgium</label>
-                                </div>
-                                <div class="checkbox">
-                                    <label><input type="checkbox" id="nl" value="">Pays-Bas / Netherlands</label>
-                                </div>
-                                <div class="checkbox">
-                                    <label><input type="checkbox" id="uk" value="">Royaume-Uni / United Kingdom</label>
-                                </div>
-                                <div class="checkbox">
-                                    <label><input type="checkbox" id="ch" value="">Suisse / Switzerland</label>
-                                </div>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>Linkedin</td>
-                            <td>
-                                <input class="inputReseau" type="url" name="linkedin" id="linkedinInput" value="https://fr.linkedin.com/company/wemanity" required/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Facebook</td>
-                            <td>
-                                <input class="inputReseau" type="url" name="facebook" id="facebookInput" value="https://www.facebook.com/Wemanity" required/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Twitter</td>
-                            <td>
-                                <input class="inputReseau" type="url" name="twitter" id="tweeterInput" value="https://twitter.com/wemanityFR" required/>
-                            </td>
-                        </tr>
-                    </table>
-                </form>
-            </div>
-            <div class="panel-footer">
-                <button class="btnGenerate">Générer la signature / Generate signature </button>
+                    <tr>
+                        <td class="multiple-choice">
+                            Logo
+                        </td>
+                        <td>
+                            <label><input  checked="checked" type="radio" name="logo-selected" value="http://www.wemanity.com/sig/Wgreen.png" /><img width="100" src="http://www.wemanity.com/sig/Wgreen.png" alt="Wemanity green logo"></label>
+                            <label><input type="radio" name="logo-selected" value="http://www.wemanity.com/sig/Wyellow.png" /><img width="100" src="http://www.wemanity.com/sig/Wyellow.png" alt="Wemanity yellow logo"></label>
+                            <label><input type="radio" name="logo-selected" value="http://www.wemanity.com/sig/Wpink.png" /><img width="100" src="http://www.wemanity.com/sig/Wpink.png" alt="Wemanity pink logo"></label>
+                            <label><input type="radio" name="logo-selected" value="http://www.wemanity.com/sig/Wrainbow.png" /><img width="100" src="http://www.wemanity.com/sig/Wrainbow.png" alt="Wemanity rainbow logo"></label>
+                            <label><input type="radio" name="logo-selected" value="http://www.wemanity.com/sig/Woriginal.png" /><img width="100" src="http://www.wemanity.com/sig/Woriginal.png" alt="Wemanity original logo"></label>
+                            <label><input type="radio" name="logo-selected" value="http://www.wemanity.com/sig/W-gradientcolors.png" /><img width="100" src="http://www.wemanity.com/sig/W-gradientcolors.png" alt="Wemanity gradient colors logo"></label>
+                            <label><input type="radio" name="logo-selected" value="http://wemanity.com/sig/Wemanity%20logo.png" /><img width="100" src="http://wemanity.com/sig/Wemanity%20logo.png" alt="Wemanity original logo"></label>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
+
+        <div class="col-lg-6 block2">
+            <table>
+                <tr>
+                    <td class="multiple-choice">
+                        Géographie / Location
+                        <br/> (multiple OK)
+                    </td>
+                    <td>
+                        <p class="paysTitre">Wemanity / Wecanopy</p>
+                        <div class="checkbox">
+                            <label><input type="checkbox" id="fr" value="">France</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" id="be" value="">Belgique / Belgium</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" id="nl" value="">Pays-Bas / Netherlands</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" id="uk" value="">Royaume-Uni / United Kingdom</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" id="ch" value="">Suisse / Switzerland</label>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Linkedin</td>
+                    <td>
+                        <input class="inputReseau" type="url" name="linkedin" id="linkedinInput" value="https://fr.linkedin.com/company/wemanity" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Facebook</td>
+                    <td>
+                        <input class="inputReseau" type="url" name="facebook" id="facebookInput" value="https://www.facebook.com/Wemanity" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Twitter</td>
+                    <td>
+                        <input class="inputReseau" type="url" name="twitter" id="tweeterInput" value="https://twitter.com/wemanityFR" required/>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
     </div>
-    <div class="col-lg-6">
+</div>
+<div>
+
+    <div class="panel-footer">
+        <button class="btnGenerate">Générer la signature / Generate signature </button>
+    </div>
+
+    <div>
         <div class="panel panel-default">
             <div class="panel-heading">Signature</div>
             <div class="panel-body">
