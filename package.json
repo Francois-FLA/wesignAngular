@@ -1,0 +1,22 @@
+{
+  "name": "wesignangular",
+  "version": "1.0.0",
+  "description": "Wesign on Angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surnova/wesignAngular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surnova/wesignAngular/issues"
+  },
+  "homepage": "https://github.com/surnova/wesignAngular#readme",
+  "dependencies": {
+    "@angular/cli": "^1.7.0"
+  }
+}
